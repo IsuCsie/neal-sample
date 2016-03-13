@@ -15,7 +15,6 @@ import {
 const brandName = "ISUCSIE";
 const brand = <span>{brandName}</span>;
 
-
 export default (props) => {
   return (
     <Page>
@@ -23,7 +22,6 @@ export default (props) => {
       <Navbar brand={brand}>
         <NavItem><a href="https://github.com/IsuCsie" target="_blank" className="nav-link">Github</a></NavItem>
       </Navbar>
-
       <Hero backgroundColor="#263238"
         className="text-center">
         <h1 className="display-1"> 一群小咖的集散地 </h1>
